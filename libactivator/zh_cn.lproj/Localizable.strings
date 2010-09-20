@@ -1,8 +1,8 @@
 {
 	LOCALIZATION_ABOUT = "";
-	
+
 	/* Settings Controller */
-	
+
 	CANT_DEACTIVATE_REMAINING = "不能停用\n保留事件";
 	AT_LEAST_ONE_ASSIGNMENT_REQUIRED = "至少一个事件必须\n分配给 %@";
 	ALERT_OK = "确定";
@@ -15,6 +15,8 @@
 	UNASSIGNED = "(未分配)";
 	MORE_ACTIONS = "更多动作";
 	MORE_ACTIONS_DETAIL = "从 Cydia 获得更多动作";
+	DONATE = "捐赠";
+	DONATE_DETAIL = "通过 PayPal 捐赠";
 	N_ADDITIONAL_EVENTS = "%i 个额外的事件";
 	RESET_SETTINGS = "重置设置";
 	RESET_SETTINGS_DETAIL = "将所有的设置重置为默认值";
@@ -22,26 +24,36 @@
 	RESET_ALERT_MESSAGE = "您确定要将所有 Activator 设置重置为默认值吗？\n 如果继续，则 iPhone 将要 respring 。";
 	RESET_ALERT_CANCEL = "取消";
 	RESET_ALERT_CONTINUE = "重置";
-	
+
 	ENABLED = "启用";
 	DISABLED = "禁用";
 	
+	OUT_OF_DATE_TITLE = "系统新版本更新";
+	OUT_OF_DATE_MESSAGE = "Activator 在更新的 iOS 运行更好。\n请更新iOS系统版本。";
+
+	TOO_NEW_TITLE = "系统版本过高";
+	TOO_NEW_MESSAGE = "Activator 还没有在此 iOS 版本上测试。\n一些特性可能不会正常工作。";
+
+	VERSION_PROMPT_MORE_INFO = "更多信息";
+	VERSION_PROMPT_IGNORE = "忽略";
+	VERSION_PROMPT_CONTINUE = "继续";
+
 	/* Modes */
-	
+
 	MODE_TITLE_all = "任何地方";
 	MODE_DESCRIPTION_all = "";
-	
+
 	MODE_TITLE_springboard = "在主屏幕";
 	MODE_DESCRIPTION_springboard = "当 SpringBoard 图标可见时";
-	
+
 	MODE_TITLE_application = "在应用程序中";
 	MODE_DESCRIPTION_application = "当应用程序可见时";
-	
+
 	MODE_TITLE_lockscreen = "在锁屏时";
 	MODE_DESCRIPTION_lockscreen = "当iPhone锁屏且锁屏可见时";
-	
+
 	/* Event Groups */
-	
+
 	"EVENT_GROUP_TITLE_Slide In Gesture" = "手势";
 	"EVENT_GROUP_TITLE_Motion" = "动作";
 	"EVENT_GROUP_TITLE_SpringBoard" = "SpringBoard";
@@ -50,86 +62,99 @@
 	"EVENT_GROUP_TITLE_Sleep Button" = "Sleep 按钮";
 	"EVENT_GROUP_TITLE_Volume Buttons" = "音量按钮";
 	"EVENT_GROUP_TITLE_Headset Button" = "线控按钮";
-	
+
 	/* Events */
-	
+
 	"EVENT_TITLE_libactivator.lock.hold.short" = "短按";
 	"EVENT_DESCRIPTION_libactivator.lock.hold.short" = "按下 sleep 按钮";
-	
+
 	"EVENT_TITLE_libactivator.lock.press.double" = "连按两次";
 	"EVENT_DESCRIPTION_libactivator.lock.press.double" = "快速连按两次 sleep 按钮";
-	
+
 	"EVENT_TITLE_libactivator.menu.hold.short" = "短按";
 	"EVENT_DESCRIPTION_libactivator.menu.hold.short" = "按下 home 按钮";
-	
+
 	"EVENT_TITLE_libactivator.menu.press.at-springboard" = "在 SpringBoard 时按一次";
 	"EVENT_DESCRIPTION_libactivator.menu.press.at-springboard" = "当 springboard 时按一次 home 按钮";
-	
+
 	"EVENT_TITLE_libactivator.menu.press.double" = "连按两次";
 	"EVENT_DESCRIPTION_libactivator.menu.press.double" = "快速连按两次 home 按钮";
 
 	"EVENT_TITLE_libactivator.menu.press.single" = "按一下";
 	"EVENT_DESCRIPTION_libactivator.menu.press.single" = "按一下 home 按钮";
-	
+
 	"EVENT_TITLE_libactivator.motion.shake" = "摇动iPhone";
-	"EVENT_DESCRIPTION_libactivator.motion.shake" = "抖动iphone!";
-	
+	"EVENT_DESCRIPTION_libactivator.motion.shake" = "摇动iphone!";
+
 	"EVENT_TITLE_libactivator.slide-in.bottom" = "从屏幕底端";
 	"EVENT_DESCRIPTION_libactivator.slide-in.bottom" = "从下到上拖动屏幕";
-	
+
 	"EVENT_TITLE_libactivator.slide-in.bottom-left" = "从屏幕左下方";
 	"EVENT_DESCRIPTION_libactivator.slide-in.bottom-left" = "从左下向上拖动屏幕";
-	
+
 	"EVENT_TITLE_libactivator.slide-in.bottom-right" = "从屏幕右下方";
 	"EVENT_DESCRIPTION_libactivator.slide-in.bottom-right" = "从右下向上拖动屏幕";
-	
+
 	"EVENT_TITLE_libactivator.springboard.pinch" = "缩小图标";
 	"EVENT_DESCRIPTION_libactivator.springboard.pinch" = "使用两个手指缩小 springboard 图标";
-	
+
 	"EVENT_TITLE_libactivator.springboard.spread" = "放大图标";
 	"EVENT_DESCRIPTION_libactivator.springboard.spread" = "使用两个手指放大 springboard 图标";
-	
+
 	"EVENT_TITLE_libactivator.statusbar.hold" = "按住";
 	"EVENT_DESCRIPTION_libactivator.statusbar.hold" = "点击并按住状态条";
-	
+
 	"EVENT_TITLE_libactivator.statusbar.swipe.down" = "向下拉";
 	"EVENT_DESCRIPTION_libactivator.statusbar.swipe.down" = "点击并向下拉状态条";
-	
+
 	"EVENT_TITLE_libactivator.statusbar.swipe.left" = "向左拉";
 	"EVENT_DESCRIPTION_libactivator.statusbar.swipe.left" = "点击并向左拉状态条";
-	
+
 	"EVENT_TITLE_libactivator.statusbar.swipe.right" = "向右拉";
 	"EVENT_DESCRIPTION_libactivator.statusbar.swipe.right" = "点击并向右拉状态条";
 
 	"EVENT_TITLE_libactivator.statusbar.tap.double" = "双击";
 	"EVENT_DESCRIPTION_libactivator.statusbar.tap.double" = "双击状态条";
-	
+
 	"EVENT_TITLE_libactivator.volume.display-tap" = "点击音量设置";
 	"EVENT_DESCRIPTION_libactivator.volume.display-tap" = "先按一下音量按钮，然后点击iPhone屏幕";
-	
+
 	"EVENT_TITLE_libactivator.volume.down-up" = "下, 上";
 	"EVENT_DESCRIPTION_libactivator.volume.down-up" = "按一下向下音量按钮，然后按向上音量按钮";	
-	
+
 	"EVENT_TITLE_libactivator.volume.up-down" = "上, 下";
 	"EVENT_DESCRIPTION_libactivator.volume.up-down" = "按一下向上音量按钮，然后按向下音量按钮";	
+	
+	"EVENT_TITLE_libactivator.volume.both-press" = "同时按";
+	"EVENT_DESCRIPTION_libactivator.volume.both-press" = "同时按下两个音量按钮";	
+
+	"EVENT_TITLE_libactivator.volume.down.hold.short" = "短按下音量按钮";
+	"EVENT_DESCRIPTION_libactivator.volume.down.hold.short" = "短按下音量按钮";	
+
+	"EVENT_TITLE_libactivator.volume.up.hold.short" = "短按上音量按钮";
+	"EVENT_DESCRIPTION_libactivator.volume.up.hold.short" = "短按上音量按钮";	
+
+	"EVENT_TITLE_libactivator.volume.toggle-mute-twice" = "切换静音按钮两次";
+	"EVENT_DESCRIPTION_libactivator.volume.toggle-mute-twice" = "切换静音按钮，然后恢复原状";	
 
     "EVENT_TITLE_libactivator.headset-button.press.single" = "按一次";
 	"EVENT_DESCRIPTION_libactivator.headset-button.press.single" = "按一次线控按钮";	
-	
+
 	"EVENT_TITLE_libactivator.headset-button.hold.short" = "短按";
 	"EVENT_DESCRIPTION_libactivator.headset-button.hold.short" = "按住线控按钮";	
-		
+
 	/* Listener Groups */
-	
+
 	"LISTENER_GROUP_TITLE_System Actions" = "系统动作";
 	"LISTENER_GROUP_TITLE_System Applications" = "系统应用程序";
 	"LISTENER_GROUP_TITLE_User Applications" = "用户应用程序";
 	"LISTENER_GROUP_TITLE_iPod" = "iPod";
 	"LISTENER_GROUP_TITLE_Lock Screen" = "锁屏";
 	"LISTENER_GROUP_TITLE_SBSettings Toggles" = "SBSettings 开关";
-	
+	"LISTENER_GROUP_TITLE_Phone" = "电话";
+
 	/* Listener Names */
-	
+
 	"LISTENER_DESCRIPTION_toggle" = "启动/关闭 开关";
 	"LISTENER_DESCRIPTION_application" = "启动应用程序";
 
@@ -138,19 +163,19 @@
 
 	"LISTENER_TITLE_libactivator.system.powerdown" = "关机";
 	"LISTENER_DESCRIPTION_libactivator.system.powerdown" = "立即关机";
-	
+
 	"LISTENER_TITLE_libactivator.system.reboot" = "重启";
 	"LISTENER_DESCRIPTION_libactivator.system.reboot" = "立即重启设备";
-	
+
 	"LISTENER_TITLE_libactivator.system.respring" = "Respring";
 	"LISTENER_DESCRIPTION_libactivator.system.respring" = "重新启动 SpringBoard ";
-	
+
 	"LISTENER_TITLE_libactivator.system.safemode" = "安全模式";
 	"LISTENER_DESCRIPTION_libactivator.system.safemode" = "重新启动 SpringBoard 到安全模式";
-	
+
 	"LISTENER_TITLE_libactivator.system.sleepbutton" = "Sleep 按钮";
 	"LISTENER_DESCRIPTION_libactivator.system.sleepbutton" = "模拟按下一次 sleep 按钮";
-	
+
 	"LISTENER_TITLE_libactivator.system.spotlight" = "Spotlight";
 	"LISTENER_DESCRIPTION_libactivator.system.spotlight" = "打开 SpringBoard 的搜索页面";
 
@@ -163,30 +188,49 @@
 	"LISTENER_TITLE_libactivator.system.activate-switcher" = "启动切换器";
 	"LISTENER_DESCRIPTION_libactivator.system.activate-switcher" = "显示应用程序切换器";
 
+	"LISTENER_TITLE_libactivator.system.show-now-playing-bar" = "显示正在播放工具条";
+	"LISTENER_DESCRIPTION_libactivator.system.show-now-playing-bar" = "显示标准媒体播放控制工具条";
 	
+
 	"LISTENER_TITLE_libactivator.ipod.music-controls" = "iPod 控制";
 	"LISTENER_DESCRIPTION_libactivator.ipod.music-controls" = "显示正在播放界面";
-	
+
 	"LISTENER_TITLE_libactivator.ipod.next-track" = "下一首";
 	"LISTENER_DESCRIPTION_libactivator.ipod.next-track" = "播放下一首音乐";
-	
+
 	"LISTENER_TITLE_libactivator.ipod.previous-track" = "上一首";
 	"LISTENER_DESCRIPTION_libactivator.ipod.previous-track" = "返回上一首音乐";
-	
+
 	"LISTENER_TITLE_libactivator.ipod.toggle-playback" = "播放/暂停";
 	"LISTENER_DESCRIPTION_libactivator.ipod.toggle-playback" = "切换 iPod 播放控制";
-	
-	
+
+
 	"LISTENER_TITLE_libactivator.lockscreen.dismiss" = "屏幕解锁";
 	"LISTENER_DESCRIPTION_libactivator.lockscreen.dismiss" = "解除屏幕锁定";
-	
+
 	"LISTENER_TITLE_libactivator.lockscreen.show" = "屏幕锁定";
 	"LISTENER_DESCRIPTION_libactivator.lockscreen.show" = "显示锁屏界面";
-	
+
 	"LISTENER_TITLE_libactivator.lockscreen.toggle" = "锁定/解锁";
 	"LISTENER_DESCRIPTION_libactivator.lockscreen.toggle" = "切换显示锁屏界面";
-
 	
+	
+	"LISTENER_TITLE_libactivator.phone.contacts" = "显示联系人";
+	"LISTENER_DESCRIPTION_libactivator.phone.contacts" = "打开电话的联系人页签";
+
+	"LISTENER_TITLE_libactivator.phone.favorites" = "显示个人收藏";
+	"LISTENER_DESCRIPTION_libactivator.phone.favorites" = "打开电话的个人收藏页签";
+
+	"LISTENER_TITLE_libactivator.phone.keypad" = "显示拨号键盘";
+	"LISTENER_DESCRIPTION_libactivator.phone.keypad" = "打开电话的拨号键盘页签";
+
+	"LISTENER_TITLE_libactivator.phone.recents" = "显示最近通话";
+	"LISTENER_DESCRIPTION_libactivator.phone.recents" = "打开电话的最近通话页签";
+
+	"LISTENER_TITLE_libactivator.phone.voicemail" = "显示语音留言";
+	"LISTENER_DESCRIPTION_libactivator.phone.voicemail" = "打开电话的语音留言页签";
+
+
 	"LISTENER_TITLE_toggle_3G" = "3G";
 	"LISTENER_TITLE_toggle_Bluetooth" = "蓝牙";
 	"LISTENER_TITLE_toggle_Data" = "数据";
@@ -195,5 +239,3 @@
 	"LISTENER_TITLE_toggle_SSH" = "SSH";
 	"LISTENER_TITLE_toggle_Syslog" = "日志";
 	"LISTENER_TITLE_toggle_Wi-Fi" = "Wi-Fi";	
-	
-}
